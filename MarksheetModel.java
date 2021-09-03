@@ -168,5 +168,17 @@ public class MarksheetModel {
 		conn.close();
 
 	}
+	public Timestamp getCreatedDatetime() {
+		return createdDatetime;
+	}
+	public void setCreatedDatetime(Timestamp createdDatetime) {
+		this.createdDatetime = createdDatetime;
+	}
+	public Timestamp getModifiedDatetime() {
+		return modifiedDatetime;
+	}
+	public void setModifiedDatetime(Timestamp modifiedDatetime) {
+		this.modifiedDatetime = modifiedDatetime;
+	}
 
 }
